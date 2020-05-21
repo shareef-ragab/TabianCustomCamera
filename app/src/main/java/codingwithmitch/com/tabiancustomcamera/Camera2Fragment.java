@@ -350,7 +350,6 @@ public class Camera2Fragment extends Fragment implements
 
 
     private void setAutoFlash(CaptureRequest.Builder requestBuilder) {
-        if (mFlashSupported) {
             if(mFlashState == FLASH_STATE_OFF){
                 requestBuilder.set(CaptureRequest.FLASH_MODE,
                         CaptureRequest.FLASH_MODE_OFF);
@@ -363,7 +362,6 @@ public class Camera2Fragment extends Fragment implements
                 requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
                         CaptureRequest.CONTROL_AE_MODE_ON_AUTO_FLASH);
             }
-        }
     }
 
     public void addSticker(Drawable sticker){
@@ -549,7 +547,6 @@ public class Camera2Fragment extends Fragment implements
             return mTextureView.onTouch(motionEvent);
         }
 
-        return true;
     }
 
     private boolean mManualFocusEngaged = false;

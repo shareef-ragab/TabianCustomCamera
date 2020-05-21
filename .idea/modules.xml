@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/New folder-TabianCustomCamera.iml" filepath="$PROJECT_DIR$/New folder-TabianCustomCamera.iml" group="TabianCustomCamera" />
       <module fileurl="file://$PROJECT_DIR$/TabianCustomCamera.iml" filepath="$PROJECT_DIR$/TabianCustomCamera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TabianCustomCamera.iml" filepath="$PROJECT_DIR$/TabianCustomCamera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TabianCustomCamera/app" />
     </modules>
   </component>
 </project>
